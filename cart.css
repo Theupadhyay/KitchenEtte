@@ -15,11 +15,12 @@ section#cart {
 section#cart .wrapper {
   justify-content: center;
   display: flex;
-  flex: column;
+  flex-direction: column;
   height: 80vh;
   width: 70vw;
   border-radius: 21px;
   background: rgba(145, 145, 145, 0.42);
+  align-items: center;
 }
 
 section#cart .wrapper #background4 {
@@ -54,9 +55,9 @@ section#cart .wrapper .line {
 }
 
 section#cart .wrapper .container {
+    text-align: center;
   background-color: transparent;
   color: #fff;
-
   font-family: Gothic A1;
   font-size: 12.5px;
   font-style: normal;
