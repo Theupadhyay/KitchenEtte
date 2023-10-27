@@ -144,6 +144,7 @@ section#menu {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 7% 4%;
 }
 
 #background2 {
@@ -164,49 +165,77 @@ section#menu {
 }
 
 section#menu h2 {
+  flex: 1;
+  display: flex;
   width: 100%;
-  text-align: center;
+  justify-content: center;
   font-family: "Gothic A1", sans-serif;
-  font-size: 26.5px;
+  font-size:36.5px;
   color: #fdf9f9;
   font-weight: 400;
-  letter-spacing: 5.666px;
+  letter-spacing: 6.666px;
   text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+  align-items:last baseline;
 }
 
 section#menu .menu-container {
+  flex: 4;
   display: flex;
   width: 100%;
+  padding-top: 2%;
   justify-content: space-around;
-  align-items: center;
+  box-sizing: border-box;
 }
 
 section#menu .menu-container .item-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 20%;
+}
+
+section#menu .menu-container #prantha-menu{
+  margin-top: 5%;
+}
+
+section#menu .menu-container #others-menu{
+  margin-top: 5%;
 }
 
 section#menu .menu-container .item-box .header {
+  flex: 0.8;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #e6bd95;
-
+  width: 70%;
   font-weight: 500;
   font-family: "Gothic A1", sans-serif;
-  font-size: 21px;
+  font-size: 24px;
   letter-spacing: 2.1px;
-}
-section#menu .menu-container .item-box .header div {
   border-bottom: 2px solid #e6bd95;
 }
 
 section#menu .menu-container .item-box .items {
+  margin-top: 5%;
+  flex: 5;
   background: rgba(102, 102, 102, 0.27);
-  border-radius: 30px;
-  width: 240px;
+  border-radius: 10px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  padding: 5%;
+  box-sizing: border-box;
+
+}
+
+section#menu .menu-container .item-box .items ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
 }
 
 section#menu .menu-container .item-box .items .item {
@@ -215,14 +244,31 @@ section#menu .menu-container .item-box .items .item {
   width: 100%;
   justify-content: space-around;
   align-items: center;
+  font-size: 25px;
+  color: white;
 }
 
 section#menu .menu-container .item-box .items .item h6 {
+  padding-top: 2px;
   font-family: Gothic A1;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+section#menu .menu-container .item-box .items .item .item-name{
+  width: 50%;
+}
+
+section#menu .menu-container .item-box .items .item .price{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section#menu .menu-container .item-box .items li {
@@ -233,9 +279,38 @@ section#menu .menu-container .item-box .items li {
 
 section#menu .menu-container .item-box .items .item .button-area {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  aspect-ratio: 2.5;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 0 3px;
+}
+
+section#menu .menu-container .item-box .items .item button{
+  background-color: gray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+section#menu .menu-container .item-box .items .item .button-area .value{
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 40%;
+  height: 100%;
+  background-color: rgb(86, 86, 86);
+  color: white;
 }
 
 .header svg {
   width: 24px;
   height: 24px;
 }
+
+
