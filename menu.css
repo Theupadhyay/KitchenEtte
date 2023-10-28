@@ -178,6 +178,7 @@ section#menu {
     height: 100%;
     background-color: rgb(86, 86, 86);
     color: white;
+    font-size: 15px;
   }
   
   .header svg {

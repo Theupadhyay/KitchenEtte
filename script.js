@@ -23,7 +23,6 @@ $("section#home #container button").click(function () {
   $(document).scrollTop(800);
 });
 
-
 // hover functionalities
 // $("nav #nav_bar_options .opts").mouseenter(function () {
 //   $(this).stop().animate({ fontSize: "20px" });
@@ -42,7 +41,27 @@ $("section#home #container button").click(function () {
 //   });
 
 // menu functionalities
-$("section#menu .menu-container .item-box .items .button-area button #plus").click(function () {
-    let previousText = $("section#menu .menu-container .item-box .items .button-area .value").val();
-    alert(previousText);
-  });
+$(
+  "section#menu .menu-container .item-box .items .item .button-area #special-thali-btn1"
+).click(function () {
+  let element_text = $(
+    "section#menu .menu-container .item-box .items .button-area #special-thali"
+  ).text();
+  element_text++;
+  $(
+    "section#menu .menu-container .item-box .items .button-area #special-thali"
+  ).text(element_text);
+});
+
+$(
+  "section#menu .menu-container .item-box .items .item .button-area #special-thali-btn2"
+).click(function () {
+  let element_text = $(
+    "section#menu .menu-container .item-box .items .button-area #special-thali"
+  ).text();
+  element_text--;
+  if (element_text < 0) element_text = 0;
+  $(
+    "section#menu .menu-container .item-box .items .button-area #special-thali"
+  ).text(element_text);
+});
