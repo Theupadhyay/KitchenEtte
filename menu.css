@@ -98,6 +98,10 @@ section#menu {
     box-sizing: border-box;
   
   }
+
+  section#menu .menu-container .item-box .items button:hover{
+    cursor: pointer;
+  }
   
   section#menu .menu-container .item-box .items ul{
     display: flex;

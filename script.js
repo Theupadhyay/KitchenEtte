@@ -41,3 +41,8 @@ $("section#home #container button").click(function () {
 //     $(this).stop().animate({ width: "50" },{height:"50"});
 //   });
 
+// menu functionalities
+$("section#menu .menu-container .item-box .items .button-area button #plus").click(function () {
+    let previousText = $("section#menu .menu-container .item-box .items .button-area .value").val();
+    alert(previousText);
+  });
