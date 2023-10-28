@@ -15,7 +15,30 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
+
+  background-image: url("assets/images/mainbg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/* remove scroll bar for chrome, safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* remove scroll bar for others */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 
 #background img {
   max-width: 100vw;
