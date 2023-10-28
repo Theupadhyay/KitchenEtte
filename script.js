@@ -40,3 +40,4 @@ $("section#home #container button").click(function () {
 //   $("nav #nav_bar_options .opts svg").mouseleave(function () {
 //     $(this).stop().animate({ width: "50" },{height:"50"});
 //   });
+
