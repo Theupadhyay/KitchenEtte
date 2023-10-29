@@ -41,7 +41,6 @@ $("section#home #container button").click(function () {
   });
 });
 
-
 //hover functionalities
 $("nav #nav_bar_options .opts, section#home #container button").mouseenter(function () {
   $(this).css({"transform": "scale(1.2)", "transition-duration": "300ms"});
