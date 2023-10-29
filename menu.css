@@ -161,11 +161,12 @@ section#menu {
   }
   
   section#menu .menu-container .item-box .items .item button{
-    background-color: gray;
+    background-color: rgba(107, 107, 107, 0);
     color: white;
     display: flex;
     align-items: center;
     justify-content:center;
+    width: 35%;
   }
   
   section#menu .menu-container .item-box .items .item .button-area .value{
