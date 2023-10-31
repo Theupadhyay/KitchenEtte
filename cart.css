@@ -87,8 +87,9 @@ section#cart .wrapper .order-button{
 section#cart .wrapper .order-now {
   height: 60%;
   width: 14%;
-  border-radius: 16px;
-  background: rgba(136, 136, 136, 0.71);
+  border-radius: 18px;
+  background: rgba(223, 134, 46, 0.49);
+  /* background: rgba(136, 136, 136, 0.71); */
   color: #fff;
   font-family: Gothic A1;
   font-size: 13.5px;
