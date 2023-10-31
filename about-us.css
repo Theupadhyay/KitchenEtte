@@ -91,3 +91,9 @@ letter-spacing: 2.1%;
 width:84%;
 /* background-color: rgb(215, 31, 31); */
 }
+
+#carouselExampleIndicators {
+  display: flex; 
+  flex:0.5;
+  
+}

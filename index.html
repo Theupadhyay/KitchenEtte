@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="about-us.css" />
     <link rel="stylesheet" href="cart.css" />
@@ -146,7 +153,7 @@
                     <div class="button-area">
                       <button id="plus">+</button>
                       <h6 class="value">0</h6>
-                      <button id = "minus">-</button>
+                      <button id="minus">-</button>
                     </div>
                   </div>
                 </li>
@@ -617,8 +624,86 @@
             <h4>Who are we?</h4>
           </div>
 
-          <div class="image">
+          <!-- <div class="image">
             <img src="assets/images/img2.jpg" />
+          </div> -->
+
+          <div class="image">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                  <img
+                    src="/assets/images/parantha.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <img
+                    src="/assets/images/page2img.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                  <img
+                    src="/assets/images/img2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
 
           <div class="content">
@@ -637,7 +722,6 @@
       <!-- Cart -->
       <section id="cart">
         <div class="wrapper">
-
           <div class="my-order">
             <h6>My Order</h6>
           </div>
@@ -652,13 +736,13 @@
 
             <div class="line"></div>
           </div>
-          
+
           <div class="order-button">
             <button class="order-now">Order Now</button>
           </div>
         </div>
       </section>
-      
+
       <!-- contactus -->
       <section id="contact-us">
         <div class="container">
@@ -673,5 +757,11 @@
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <!--Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
