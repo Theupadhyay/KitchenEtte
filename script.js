@@ -104,6 +104,7 @@ $('.button-area').on('click', 'button', function() {
 });
 
 
+<<<<<<< HEAD
 //functionality to add items to cart
 $('.button-area').on('click', 'button', function() {
   var operation = $(this).text();
@@ -209,4 +210,9 @@ $("section#cart .wrapper .order-button .order-now").click(function() {
 
 $("nav #nav_bar_options #profile-button").click(function(){
   alert("This feature is coming soon");
+=======
+$(".item-box").on('click', '.reset-btn-area .reset-btn', function(){
+  var tempEl = $(this).closest('.item-box').find('.items .button-area h6');
+  tempEl.text(0);
+>>>>>>> 4eda04808741bf389e08be3033df2cf85c515a73
 });
