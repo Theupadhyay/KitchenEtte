@@ -10,7 +10,7 @@ section#contact-us{
     align-items: center;
     position: relative;
     font-family: "Gothic A1", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     letter-spacing: 2px;
     background-color: rgba(145, 145, 145, 0.42);
@@ -35,6 +35,3 @@ section#contact-us .container .email{
     align-items: center;
     justify-content: center;
 }
-
-
-
